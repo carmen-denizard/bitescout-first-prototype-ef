@@ -1,3 +1,4 @@
+import { GallerySection } from '@/components/gallery-section'
 import { Hero } from '@/components/hero'
 import { MakerAndLink } from '@/components/maker-and-link'
 import { SiteHeader } from '@/components/site-header'
@@ -12,6 +13,7 @@ export default function Page() {
         <Hero />
         <WhyItMatters />
         <VideoSection />
+        <GallerySection />
         <MakerAndLink />
       </main>
       <footer className="border-t border-border">
