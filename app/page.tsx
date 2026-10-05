@@ -1,6 +1,7 @@
 import { Hero } from '@/components/hero'
 import { MakerAndLink } from '@/components/maker-and-link'
 import { SiteHeader } from '@/components/site-header'
+import { VideoSection } from '@/components/video-section'
 import { WhyItMatters } from '@/components/why-it-matters'
 
 export default function Page() {
@@ -10,6 +11,7 @@ export default function Page() {
       <main>
         <Hero />
         <WhyItMatters />
+        <VideoSection />
         <MakerAndLink />
       </main>
       <footer className="border-t border-border">
