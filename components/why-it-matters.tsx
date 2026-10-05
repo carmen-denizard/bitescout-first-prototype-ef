@@ -19,7 +19,7 @@ export function WhyItMatters() {
             {restrictions.map((item) => (
               <li
                 key={item}
-                className="rounded-full border-2 border-primary-foreground px-4 py-2 text-sm font-semibold"
+                className="rounded-full bg-secondary px-4 py-2 text-sm font-semibold text-secondary-foreground"
               >
                 {item}
               </li>

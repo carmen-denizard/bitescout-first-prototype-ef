@@ -4,8 +4,8 @@ export function MakerAndLink() {
   return (
     <section id="maker" className="mx-auto max-w-5xl px-6 py-20">
       <div className="grid gap-6 md:grid-cols-2">
-        <div className="rounded-2xl border border-border bg-card p-8">
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">Who made it</h2>
+        <div className="rounded-2xl bg-secondary p-8 text-secondary-foreground">
+          <h2 className="text-sm font-semibold uppercase tracking-widest">Who made it</h2>
           <div className="mt-6 flex items-center gap-4">
             <span
               className="flex size-14 items-center justify-center rounded-full bg-primary text-lg font-bold text-primary-foreground"
