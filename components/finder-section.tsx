@@ -13,9 +13,10 @@ export function FinderSection() {
     )
   }
 
-  const visibleSpots = FOOD_SPOTS.filter((spot) =>
-    activeTags.every((tag) => spot.dietaryTags.includes(tag)),
-  )
+  const visibleSpots =
+    activeTags.length === 0
+      ? FOOD_SPOTS
+      : FOOD_SPOTS.filter((spot) => activeTags.some((tag) => spot.dietaryTags.includes(tag)))
 
   return (
     <section id="finder" aria-labelledby="finder-heading" className="mx-auto max-w-5xl px-6 pt-20">
